@@ -1,0 +1,494 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-06-20 19:06+0100\n"
+"Last-Translator: ich <me@ho.me>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../admin.php:113
+msgid "Moderator"
+msgstr "Moderator"
+
+#: ../admin.php:208 ../admin.php:243
+msgid "Zensor Notification"
+msgstr "Nachricht von Zensor"
+
+#: ../admin.php:296 ../manage.php:226
+msgid "Preview On"
+msgstr "Vorschau an"
+
+#: ../admin.php:297 ../manage.php:226
+msgid "Preview Off"
+msgstr "Vorschau aus"
+
+#: ../admin.php:320
+msgid "You are not allowed to edit plugins."
+msgstr "Berechtigung zum &auml;ndern von Plugins fehlt."
+
+#: ../common.php:69
+msgid "<h3>Awaiting Moderation</h3>"
+msgstr "<h3>Inhalt noch nicht verf&uuml;gbar</h3>"
+
+#: ../common.php:70
+msgid ""
+"<p>This %PAGE/POST% has been rejected by <em>%MODERATOR_NAME%</em> for the "
+"reason below.  It is now awaiting re-publication by the original author.</p>"
+"\\n<p><b>Reason:</b> %MESSAGE%</p>"
+msgstr ""
+"<h3>Diese(r) %PAGE/POST% wurde aus dem folgenden Grund von <em>%"
+"MODERATOR_NAME%</em>zur&uuml;ckgewiesen: <i>%REASON%</i><br>Der Autor muss "
+"die Ver&ouml;ffentlichung erneut initiieren"
+
+#: ../common.php:71
+msgid ""
+"<p>This %PAGE/POST% is awaiting <a href=\\\"%THE_LINK%\\\">moderation</a>, "
+"potentially by YOU!</p>"
+msgstr ""
+"<p>Diese(r) %PAGE/POST% muss erst noch <a href=\"%THE_LINK%\">freigegeben</"
+"a> werden!"
+
+#: ../common.php:73
+msgid ""
+"<h3>This %PAGE/POST% has been rejected by the moderator <em>%MODERATOR_NAME%"
+"</em> for the reason below.  Any changes you make here will be resubmitted "
+"for approval by a moderator before becoming visible to the public.<h3>"
+"\\n<p><b>Reason:</b> %MESSAGE%</p>"
+msgstr ""
+"<h3>Diese(r) %PAGE/POST% wurde aus dem folgenden Grund von <em>%"
+"MODERATOR_NAME%</em>zur&uuml;ckgewiesen: <i>%REASON%</i><br>Jede &auml;"
+"nderung wird %MODERATOR_NAME% vorgelegt bevor sie im Internet ver&ouml;"
+"ffentlicht werden kann."
+
+#: ../common.php:74
+msgid ""
+"<h3>This %PAGE/POST% has already been approved by a moderator.  Any changes "
+"that you make will not be visible to the public until a moderator has "
+"approved them.</h3>"
+msgstr ""
+"<h3>Diese(r) %PAGE/POST% wurde durch einen Moderator so wie angezeigt "
+"genehmigt. Ver&auml;nderungen m&uuml;ssen erneut durch einen Moderator "
+"freigegeben werden, der die/den %PAGE/POST% dann ver&ouml;ffentlicht</h3>"
+
+#: ../common.php:75
+msgid ""
+"<h3>This %PAGE/POST% is already awaiting moderation.  The content you see "
+"here is not visible to the public and any changes that are made will not be "
+"visible until a moderator has approved them.</h3>"
+msgstr ""
+"<h3>Diese(r) %PAGE/POST% erwartet die Freigabe. Der angezeigte Inhalt ist "
+"noch nicht &ouml;ffentlich sichtbar und Ver&auml;nderungen werden erst "
+"ver&ouml;ffentlicht, wenn sie ein Moderator genehmigt hat.</h3>"
+
+#: ../common.php:76
+msgid ""
+"<h3>When published, this %PAGE/POST% will not be displayed to the public "
+"until a moderator has approved it.</h3>"
+msgstr ""
+"<h3>Diese(r) %PAGE/POST% wird nach dem Click auf <b>Ver&ouml;ffentlichen<b> "
+"erst einem Moderator vorgelegt, der den Inhalt genehmigen muss, damit er "
+"&ouml;ffentlich sichtbar wird.</h3>"
+
+#: ../common.php:78
+msgid ""
+"Your %PAGE/POST% (%PERMALINK%) entitled %TITLE% has been %STATUS% by %"
+"MODERATOR_NAME%.  The following message was given:\n"
+"\n"
+"%MESSAGE%"
+msgstr ""
+"Der/die %PAGE/POST% %TITLE% (%PERMALINK%) wurde von %MODERATOR_NAME% "
+"moderiert. Neuer Status: %STATUS%. Dazu wurde folgende Mitteilung "
+"eingegeben: \n"
+"\n"
+"%MESSAGE%"
+
+#: ../common.php:79
+msgid ""
+"A %PAGE/POST% (%THE_LINK%) entitled %TITLE% has been posted by %AUTHOR_NAME"
+"%.  The following message was given:\n"
+"\n"
+"%MESSAGE%"
+msgstr ""
+"Der/die %PAGE/POST% %TITLE% (%THE_LINK%) wurde von %AUTHOR_NAME% erstellt. "
+"Dazu wurde folgende Mitteilung eingegeben: \n"
+"\n"
+"%MESSAGE%"
+
+#: ../common.php:245 ../common.php:258
+msgid "page"
+msgstr "Seite"
+
+#: ../common.php:245
+msgid "post"
+msgstr "Beitrag"
+
+#: ../common.php:257
+msgid "Untitled"
+msgstr "Unbekannt"
+
+#: ../common.php:259
+msgid "A moderator"
+msgstr "Ein Moderator"
+
+#: ../common.php:260
+msgid "No message."
+msgstr "Kein Hinweis"
+
+#: ../edit.php:70
+msgid "Show"
+msgstr "Anzeigen"
+
+#: ../edit.php:88
+msgid "Zensor Note"
+msgstr "Moderator-Hinweis:"
+
+#: ../edit.php:113
+msgid "Moderation"
+msgstr "Moderation"
+
+#: ../edit.php:133 ../manage.php:81
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+#: ../edit.php:135 ../manage.php:77
+msgid "Awaiting"
+msgstr "Vorlage"
+
+#: ../edit.php:137
+msgid "Approved"
+msgstr "Genehmigt"
+
+#: ../edit.php:180
+msgid "Empty message"
+msgstr "Mitteilung leer"
+
+#: ../manage.php:89
+msgid "Pages/Posts Awaiting Moderation"
+msgstr "Zu genehmigende Seiten/Beitr&auml;ge"
+
+#: ../manage.php:90
+msgid ""
+"The pages/posts below have recently been edited or published by authors on "
+"your site.  They are now awaiting moderation.  To moderate a page, click "
+"'Preview On'.  You then have the option to approve or reject the page as it "
+"is.  The reason you give will be sent to the original author.  Approved "
+"pages/posts will be immediately available to site visitors.  Rejected pages/"
+"posts will need to be edited by the original author and then re-moderated."
+msgstr ""
+"Die folgenden Seiten/Beitr&auml;ge wurden k&uuml;rzlich ver&auml;ndert oder "
+"vom Autor zur Ver&ouml;ffentlichung vorgesehen und werden deshalb zur "
+"Genehmigung vorgelegt. Nach Click auf 'Vorschau An' wird der Inhalt "
+"angezeigt. Mit 'Genehmigen' wird der Inhalt sofort f&uuml;r Seitenbesucher "
+"sichtbar. Mit 'Ablehnen' wird der Inhalt zur&uuml;ckgewiesen und nach "
+"Ver&auml;nderung durch den Autor erneut vorgelegt. Der Ablehnungsgrund wird "
+"dem Autor mitgeteilt."
+
+#: ../manage.php:92
+msgid "Rejected Pages/Posts"
+msgstr "Abgelehnte Seiten/Beitr&auml;ge"
+
+#: ../manage.php:93
+msgid ""
+"The pages/posts below have recently been rejected by a moderator on your "
+"site.  They are now awaiting editing by the original author, but can also be "
+"re-moderated now.  To moderate a page, click 'Preview On'.  You then have "
+"the option to approve or reject the page as it is.  The reason you give will "
+"be sent to the original author.  Approved pages/posts will be immediately "
+"available to site visitors.  Rejected pages/posts will need to be edited by "
+"the original author and then re-moderated."
+msgstr ""
+"Die folgenden Seiten/Beitr&auml;ge wurden k&uuml;rzlich von einem Moderator "
+"der Site zur&uuml;ckgewiesen und sollen von den Autoren ver&auml;ndert "
+"werden. Eine Erneute Moderation ist trotzdem jetzt m&ouml;glich. Nach Click "
+"auf 'Vorschau An' wird der Inhalt angezeigt. Mit 'Genehmigen' wird der "
+"Inhalt sofort f&uuml;r Seitenbesucher sichtbar. Mit 'Ablehnen' wird der "
+"Inhalt zur&uuml;ckgewiesen und nach Ver&auml;nderung durch den Autor erneut "
+"vorgelegt. Der Ablehnungsgrund wird dem Autor mitgeteilt."
+
+#: ../manage.php:102
+msgid "Author Message"
+msgstr "Hinweis des Autors"
+
+#: ../manage.php:102
+msgid "Moderation Message"
+msgstr "Hinweis des Moderators"
+
+#: ../manage.php:116
+msgid "No pages/posts awaiting moderation!"
+msgstr "Keine Seiten/Beitr&auml;ge zum Genehmigen vorhanden."
+
+#: ../manage.php:118
+msgid "No rejected pages/posts!"
+msgstr "Es gibt zur Zeit keine abgelehnten Beitr&auml;ge"
+
+#: ../manage.php:155 ../manage.php:166
+msgid "Bulk Approve"
+msgstr "Alles genehmigen"
+
+#: ../manage.php:156
+msgid ""
+"This will approve ALL posts/pages that are awaiting moderation.  Do you "
+"REALLY want to do this?"
+msgstr ""
+"Sollen jetzt wirklich ALLE Seiten/Beitr&auml;ge genehmigt werden? Sicher?"
+
+#: ../manage.php:160 ../manage.php:171
+msgid "Bulk Reject"
+msgstr "Alles ABLEHNEN"
+
+#: ../manage.php:161
+msgid ""
+"This will reject ALL posts/pages that are awaiting moderation.  Do you "
+"REALLY want to do this?"
+msgstr ""
+"Sollen jetzt wirklich ALLE Seiten/Beitr&auml;ge zur&uuml;ckgewiesen werden? "
+"Sicher?"
+
+#: ../manage.php:167
+msgid ""
+"This will approve ALL rejected posts/pages.  Do you REALLY want to do this?"
+msgstr ""
+"Sollen jetzt wirklich ALLE vorher zur&uuml;ckgewiesenen Seiten/Beitr&auml;ge "
+"genehmigt werden? Sicher?"
+
+#: ../manage.php:172
+msgid ""
+"This will reject ALL rejected posts/pages.  Do you REALLY want to do this?"
+msgstr ""
+"Sollen jetzt wirklich ALLE Seiten/Beitr&auml;ge nochmals zur&uuml;ckgewiesen "
+"werden? Sicher?"
+
+#: ../manage.php:202
+msgid "Reason for decision:"
+msgstr "Entscheidungsanlass:"
+
+#: ../manage.php:207
+msgid "Approve"
+msgstr "Genehmigen"
+
+#: ../manage.php:208
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: ../manage.php:265
+msgid "Bulk"
+msgstr "Alles"
+
+#: ../options.php:77
+msgid "Immediately"
+msgstr "Sofort"
+
+#: ../options.php:77
+msgid "Hourly"
+msgstr "St&uuml;ndlich"
+
+#: ../options.php:77
+msgid "Daily"
+msgstr "T&auml;glich"
+
+#: ../options.php:109
+msgid "Options updated!"
+msgstr "Einstellungen gespeichert!"
+
+#: ../options.php:113
+msgid "Default options reloaded."
+msgstr "Voreinstellungen wiederhergestellt."
+
+#: ../options.php:122
+msgid "Zensor Options"
+msgstr "Zensor Einstellungen"
+
+#: ../options.php:125
+msgid "Notification Frequency"
+msgstr "Häufigkeit der Benachrichtigungen"
+
+#: ../options.php:127
+msgid ""
+"Notifications to moderators and authors can either be sent immediately or "
+"batched together and sent at regular intervals."
+msgstr ""
+"Benachrichtigungen an Moderatoren und Autoren können sofort verschickt "
+"werden oder als Sammelbenachrichtigung in regelmäßigen Abständen."
+
+#: ../options.php:131
+msgid "Author Frequency"
+msgstr "Benachrichtigung der Autoren"
+
+#: ../options.php:134
+msgid "Moderator Frequency"
+msgstr "Benachrichtigung der Moderatoren"
+
+#: ../options.php:140
+msgid ""
+"The following fields all contain messages that are displayed or emailed to "
+"users.  The tags below can be used to add more context to the messages."
+msgstr ""
+"Die folgenden Felder enthalten Mitteilungen, die Benuzern angezeigt bzw. per "
+"mail zugestellt werden. Die 'tags' k&ouml;nnen benutzt werden, um die "
+"Mitteilungen individuell anzupassen."
+
+#: ../options.php:143
+msgid "A link to the moderation pages for a particular page/post."
+msgstr "Ein 'link' zur Moderations-Seite f&uuml;r den angezeigten Inhalt."
+
+#: ../options.php:145
+msgid "The name of the moderator who last moderated a page/post."
+msgstr ""
+"Name des Moderators, der den Inhalt zuletzt genehmigt bzw. zur&uuml;"
+"ckgewiesen hat"
+
+#: ../options.php:147
+msgid ""
+"The last message recorded for the page/post.  Can be either a moderator's "
+"message or an author's message."
+msgstr ""
+"Die letzte Mitteilung zum angezeigten Inhalt (kann vom Moderator oder vom "
+"Autor sein)"
+
+#: ../options.php:149
+msgid ""
+"Prints either 'page' or 'post' depending on whether the object is a page or "
+"a post."
+msgstr ""
+"enth&auml;lt 'Seite' oder 'Beitrag' je nachdem ob es eine Seite oder ein "
+"Beitrag ist."
+
+#: ../options.php:151
+msgid "Title of the current post"
+msgstr "Titel des aktuellen Beitrags"
+
+#: ../options.php:153
+msgid "Permalink of the post"
+msgstr "Permalink des Beitrags"
+
+#: ../options.php:155
+msgid "Author of the post"
+msgstr "Autor des Beitrags"
+
+#: ../options.php:157
+msgid "Zensor status of the post"
+msgstr "Zensor-Status des Beitrags"
+
+#: ../options.php:161
+msgid "Moderator Email"
+msgstr "E-mail an die Moderatoren"
+
+#: ../options.php:163
+msgid ""
+"When a post is published, Zensor notifies the moderators with the following "
+"email message. (No HTML)"
+msgstr ""
+"Nach dem Click auf 'Ver&ouml;ffentlichen' durch Autoren wird folgende E-mail "
+"an die Moderatorern zugestellt. (Kein HTML)"
+
+#: ../options.php:172
+msgid "Author Email"
+msgstr "E-mail an die Autoren"
+
+#: ../options.php:174
+msgid ""
+"When a post is moderated, the original author is notified with the following "
+"email message. (No HTML)"
+msgstr ""
+"Folgende E-mail wird an den Autor eines Beitrags gesendet, wenn dieser "
+"moderiert wurde. (Kein HTML)"
+
+#: ../options.php:183
+msgid "Messages on page/post edit form."
+msgstr "Mitteilungen im Seite/Beitrag Formular f&uuml;r Autoren"
+
+#: ../options.php:185
+msgid ""
+"When an approved page/post is being edited, the following message will be "
+"displayed beneath the edit form. (HTML)"
+msgstr ""
+"Wenn ein bereits genehmigter und ver&ouml;ffentlichter Inhalt ver&auml;ndert "
+"wird, wird diese Mitteilung unter dem Formular angezeigt. (HTML)"
+
+#: ../options.php:192
+msgid ""
+"When a rejected page/post is being edited, the following message will be "
+"displayed beneath the edit form. (HTML)"
+msgstr ""
+"Wenn ein zur&uuml;ckgewiesener Inhalt ver&auml;ndert wird, wird diese "
+"Mitteilung unter dem Formular angezeigt. (HTML)"
+
+#: ../options.php:199
+msgid ""
+"When a page/post awaiting moderation is being edited, the following message "
+"will be displayed beneath the edit form. (HTML)"
+msgstr ""
+"Wenn ein Inhalt ver&auml;ndert wird, der den Moderatoren zur Genehmigung "
+"vorgelegt wurde, wird diese Mitteilung unter dem Formular angezeigt. (HTML)"
+
+#: ../options.php:206
+msgid ""
+"When a new page/post is being edited, the following message will be "
+"displayed beneath the edit form. (HTML)"
+msgstr ""
+"Wenn ein neuer Inhalt eingegeben bzw. ver&auml;ndert wird, wird diese "
+"Mitteilung unter dem Formular angezeigt. (HTML)"
+
+#: ../options.php:215
+msgid "Moderation Messages"
+msgstr "Moderationsmitteilungen"
+
+#: ../options.php:217
+msgid ""
+"When a page/post awaiting moderation is visited, the following message will "
+"be displayed to non-moderators. (HTML)"
+msgstr ""
+"Seitenbesuchern wird diese Mitteilung angezeigt, wenn sie einen Inhalt "
+"aufrufen, der noch nicht genehmigt wurde. (HTML)"
+
+#: ../options.php:224
+msgid ""
+"When a page/post awaiting moderation is visited, the following message will "
+"be displayed to moderators beneath the page/post. (HTML)"
+msgstr ""
+"Moderatoren wird diese Mitteilung unter dem Inhalt angezeigt, der noch nicht "
+"genehmigt wurde. (HTML)"
+
+#: ../options.php:231
+msgid ""
+"When a rejected page/post is visited, the following message will be "
+"displayed to moderators beneath the page/post. (HTML)"
+msgstr ""
+"Moderatoren wird diese Mitteilung unter dem Inhalt angezeigt, der zur&uuml;"
+"ckgewiesen wurde. (HTML)"
+
+#: ../options.php:241
+msgid "Advanced Options"
+msgstr "Erweiterte Einstellungen"
+
+#: ../options.php:243
+msgid "Update"
+msgstr "Speichern"
+
+#: ../options.php:251
+msgid "Reload Defaults"
+msgstr "Voreinstellungen wiederherstellen"
+
+#: ../options.php:251
+msgid ""
+"This will reload the default options/messages that ship with Zensor, losing "
+"all of your customizations. Are you sure you want to do this?"
+msgstr ""
+"Hierdurch werden die Voreinstellungen und die vorformulierten Mitteilungen "
+"von Zensor wiederhergestellt. Dabei gehen alle individuellen Anpassungen "
+"verloren. Sicher?"
+
+#: ../options.php:259
+msgid "Uninstall"
+msgstr "Deinstallieren"
+
+#: ../options.php:259
+msgid ""
+"This will deactivate this plugin and remove all traces of it from your "
+"database.  Do you REALLY want to do this?"
+msgstr ""
+"Das Plugin wird deaktiviert und alle Eintr&auml;ge in der Wordpress-"
+"Datenbank werden gel&ouml;scht. Sind Sie wirklich sicher? Wirklich?"

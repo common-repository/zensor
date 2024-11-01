@@ -1,0 +1,60 @@
+#subsubmenu li {
+	display: inline;
+	line-height: 170%;
+	list-style: none;
+	text-align: center;
+}
+
+#subsubmenu {
+	font-size: 0.9em;
+	background: #CDD9E2;
+	border-bottom: none;
+	margin: 0;
+	color: #4F5D69;
+	padding: 2px 2em 0 5em;
+}
+
+#subsubmenu .current {
+	background: #f9fcfe;
+	border-top: 1px solid #045290;
+	color: black;
+}
+
+#subsubmenu a {
+	border: none;
+	color: #4F5D69;
+	font-size: 12px;
+	padding: 3px 1em 2px 1em;
+}
+
+#subsubmenu a:hover {
+	background: #89A5BB;
+	color: #393939;
+}
+
+#subsubmenu li {
+	line-height: 150%;
+}
+
+#zensor_statusform {
+	float:left;
+	margin-bottom:1em;
+	width:23em;
+}
+
+input.zensor_reject:hover {
+	background: #c00;
+	color: #fff;
+}
+
+input.zensor_approve:hover {
+	background: #0c0;
+	color: #fff;
+}
+
+a.zensor_approve, a.zensor_reject, a.zensor_approve:hover, a.zensor_reject:hover {
+	margin-top:10px;
+	display:block;
+	padding:5px 0pt;
+	text-align:center;
+}

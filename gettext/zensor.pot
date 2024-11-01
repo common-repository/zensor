@@ -1,0 +1,401 @@
+#: ../admin.php:113
+msgid "Moderator"
+msgstr ""
+
+#: ../admin.php:208 ../admin.php:243
+msgid "Zensor Notification"
+msgstr ""
+
+#: ../admin.php:296 ../manage.php:226
+msgid "Preview On"
+msgstr ""
+
+#: ../admin.php:297 ../manage.php:226
+msgid "Preview Off"
+msgstr ""
+
+#: ../admin.php:320
+msgid "You are not allowed to edit plugins."
+msgstr ""
+
+#: ../common.php:69
+msgid "<h3>Awaiting Moderation</h3>"
+msgstr ""
+
+#: ../common.php:70
+msgid ""
+"<p>This %PAGE/POST% has been rejected by <em>%MODERATOR_NAME%</em> for the "
+"reason below.  It is now awaiting re-publication by the original author.</p>"
+"\\n<p><b>Reason:</b> %MESSAGE%</p>"
+msgstr ""
+
+#: ../common.php:71
+msgid ""
+"<p>This %PAGE/POST% is awaiting <a href=\\\"%THE_LINK%\\\">moderation</a>, "
+"potentially by YOU!</p>"
+msgstr ""
+
+#: ../common.php:73
+msgid ""
+"<h3>This %PAGE/POST% has been rejected by the moderator <em>%MODERATOR_NAME%"
+"</em> for the reason below.  Any changes you make here will be resubmitted "
+"for approval by a moderator before becoming visible to the public.<h3>"
+"\\n<p><b>Reason:</b> %MESSAGE%</p>"
+msgstr ""
+
+#: ../common.php:74
+msgid ""
+"<h3>This %PAGE/POST% has already been approved by a moderator.  Any changes "
+"that you make will not be visible to the public until a moderator has "
+"approved them.</h3>"
+msgstr ""
+
+#: ../common.php:75
+msgid ""
+"<h3>This %PAGE/POST% is already awaiting moderation.  The content you see "
+"here is not visible to the public and any changes that are made will not be "
+"visible until a moderator has approved them.</h3>"
+msgstr ""
+
+#: ../common.php:76
+msgid ""
+"<h3>When published, this %PAGE/POST% will not be displayed to the public "
+"until a moderator has approved it.</h3>"
+msgstr ""
+
+#: ../common.php:78
+msgid ""
+"Your %PAGE/POST% (%PERMALINK%) entitled %TITLE% has been %STATUS% by %"
+"MODERATOR_NAME%.  The following message was given:\n"
+"\n"
+"%MESSAGE%"
+msgstr ""
+
+#: ../common.php:79
+msgid ""
+"A %PAGE/POST% (%THE_LINK%) entitled %TITLE% has been posted by %AUTHOR_NAME"
+"%.  The following message was given:\n"
+"\n"
+"%MESSAGE%"
+msgstr ""
+
+#: ../common.php:245 ../common.php:258
+msgid "page"
+msgstr ""
+
+#: ../common.php:245
+msgid "post"
+msgstr ""
+
+#: ../common.php:257
+msgid "Untitled"
+msgstr ""
+
+#: ../common.php:259
+msgid "A moderator"
+msgstr ""
+
+#: ../common.php:260
+msgid "No message."
+msgstr ""
+
+#: ../edit.php:70
+msgid "Show"
+msgstr ""
+
+#: ../edit.php:88
+msgid "Zensor Note"
+msgstr ""
+
+#: ../edit.php:113
+msgid "Moderation"
+msgstr ""
+
+#: ../edit.php:133 ../manage.php:81
+msgid "Rejected"
+msgstr ""
+
+#: ../edit.php:135 ../manage.php:77
+msgid "Awaiting"
+msgstr ""
+
+#: ../edit.php:137
+msgid "Approved"
+msgstr ""
+
+#: ../edit.php:180
+msgid "Empty message"
+msgstr ""
+
+#: ../manage.php:89
+msgid "Pages/Posts Awaiting Moderation"
+msgstr ""
+
+#: ../manage.php:90
+msgid ""
+"The pages/posts below have recently been edited or published by authors on "
+"your site.  They are now awaiting moderation.  To moderate a page, click "
+"'Preview On'.  You then have the option to approve or reject the page as it "
+"is.  The reason you give will be sent to the original author.  Approved "
+"pages/posts will be immediately available to site visitors.  Rejected pages/"
+"posts will need to be edited by the original author and then re-moderated."
+msgstr ""
+
+#: ../manage.php:92
+msgid "Rejected Pages/Posts"
+msgstr ""
+
+#: ../manage.php:93
+msgid ""
+"The pages/posts below have recently been rejected by a moderator on your "
+"site.  They are now awaiting editing by the original author, but can also be "
+"re-moderated now.  To moderate a page, click 'Preview On'.  You then have "
+"the option to approve or reject the page as it is.  The reason you give will "
+"be sent to the original author.  Approved pages/posts will be immediately "
+"available to site visitors.  Rejected pages/posts will need to be edited by "
+"the original author and then re-moderated."
+msgstr ""
+
+#: ../manage.php:102
+msgid "Author Message"
+msgstr ""
+
+#: ../manage.php:102
+msgid "Moderation Message"
+msgstr ""
+
+#: ../manage.php:116
+msgid "No pages/posts awaiting moderation!"
+msgstr ""
+
+#: ../manage.php:118
+msgid "No rejected pages/posts!"
+msgstr ""
+
+#: ../manage.php:155 ../manage.php:166
+msgid "Bulk Approve"
+msgstr ""
+
+#: ../manage.php:156
+msgid ""
+"This will approve ALL posts/pages that are awaiting moderation.  Do you "
+"REALLY want to do this?"
+msgstr ""
+
+#: ../manage.php:160 ../manage.php:171
+msgid "Bulk Reject"
+msgstr ""
+
+#: ../manage.php:161
+msgid ""
+"This will reject ALL posts/pages that are awaiting moderation.  Do you "
+"REALLY want to do this?"
+msgstr ""
+
+#: ../manage.php:167
+msgid ""
+"This will approve ALL rejected posts/pages.  Do you REALLY want to do this?"
+msgstr ""
+
+#: ../manage.php:172
+msgid ""
+"This will reject ALL rejected posts/pages.  Do you REALLY want to do this?"
+msgstr ""
+
+#: ../manage.php:202
+msgid "Reason for decision:"
+msgstr ""
+
+#: ../manage.php:207
+msgid "Approve"
+msgstr ""
+
+#: ../manage.php:208
+msgid "Reject"
+msgstr ""
+
+#: ../manage.php:265
+msgid "Bulk"
+msgstr ""
+
+#: ../options.php:77
+msgid "Immediately"
+msgstr ""
+
+#: ../options.php:77
+msgid "Hourly"
+msgstr ""
+
+#: ../options.php:77
+msgid "Daily"
+msgstr ""
+
+#: ../options.php:109
+msgid "Options updated!"
+msgstr ""
+
+#: ../options.php:113
+msgid "Default options reloaded."
+msgstr ""
+
+#: ../options.php:122
+msgid "Zensor Options"
+msgstr ""
+
+#: ../options.php:125
+msgid "Notification Frequency"
+msgstr ""
+
+#: ../options.php:127
+msgid ""
+"Notifications to moderators and authors can either be sent immediately or "
+"batched together and sent at regular intervals."
+msgstr ""
+
+#: ../options.php:131
+msgid "Author Frequency"
+msgstr ""
+
+#: ../options.php:134
+msgid "Moderator Frequency"
+msgstr ""
+
+#: ../options.php:140
+msgid ""
+"The following fields all contain messages that are displayed or emailed to "
+"users.  The tags below can be used to add more context to the messages."
+msgstr ""
+
+#: ../options.php:143
+msgid "A link to the moderation pages for a particular page/post."
+msgstr ""
+
+#: ../options.php:145
+msgid "The name of the moderator who last moderated a page/post."
+msgstr ""
+
+#: ../options.php:147
+msgid ""
+"The last message recorded for the page/post.  Can be either a moderator's "
+"message or an author's message."
+msgstr ""
+
+#: ../options.php:149
+msgid ""
+"Prints either 'page' or 'post' depending on whether the object is a page or "
+"a post."
+msgstr ""
+
+#: ../options.php:151
+msgid "Title of the current post"
+msgstr ""
+
+#: ../options.php:153
+msgid "Permalink of the post"
+msgstr ""
+
+#: ../options.php:155
+msgid "Author of the post"
+msgstr ""
+
+#: ../options.php:157
+msgid "Zensor status of the post"
+msgstr ""
+
+#: ../options.php:161
+msgid "Moderator Email"
+msgstr ""
+
+#: ../options.php:163
+msgid ""
+"When a post is published, Zensor notifies the moderators with the following "
+"email message. (No HTML)"
+msgstr ""
+
+#: ../options.php:172
+msgid "Author Email"
+msgstr ""
+
+#: ../options.php:174
+msgid ""
+"When a post is moderated, the original author is notified with the following "
+"email message. (No HTML)"
+msgstr ""
+
+#: ../options.php:183
+msgid "Messages on page/post edit form."
+msgstr ""
+
+#: ../options.php:185
+msgid ""
+"When an approved page/post is being edited, the following message will be "
+"displayed beneath the edit form. (HTML)"
+msgstr ""
+
+#: ../options.php:192
+msgid ""
+"When a rejected page/post is being edited, the following message will be "
+"displayed beneath the edit form. (HTML)"
+msgstr ""
+
+#: ../options.php:199
+msgid ""
+"When a page/post awaiting moderation is being edited, the following message "
+"will be displayed beneath the edit form. (HTML)"
+msgstr ""
+
+#: ../options.php:206
+msgid ""
+"When a new page/post is being edited, the following message will be "
+"displayed beneath the edit form. (HTML)"
+msgstr ""
+
+#: ../options.php:215
+msgid "Moderation Messages"
+msgstr ""
+
+#: ../options.php:217
+msgid ""
+"When a page/post awaiting moderation is visited, the following message will "
+"be displayed to non-moderators. (HTML)"
+msgstr ""
+
+#: ../options.php:224
+msgid ""
+"When a page/post awaiting moderation is visited, the following message will "
+"be displayed to moderators beneath the page/post. (HTML)"
+msgstr ""
+
+#: ../options.php:231
+msgid ""
+"When a rejected page/post is visited, the following message will be "
+"displayed to moderators beneath the page/post. (HTML)"
+msgstr ""
+
+#: ../options.php:241
+msgid "Advanced Options"
+msgstr ""
+
+#: ../options.php:243
+msgid "Update"
+msgstr ""
+
+#: ../options.php:251
+msgid "Reload Defaults"
+msgstr ""
+
+#: ../options.php:251
+msgid ""
+"This will reload the default options/messages that ship with Zensor, losing "
+"all of your customizations. Are you sure you want to do this?"
+msgstr ""
+
+#: ../options.php:259
+msgid "Uninstall"
+msgstr ""
+
+#: ../options.php:259
+msgid ""
+"This will deactivate this plugin and remove all traces of it from your "
+"database.  Do you REALLY want to do this?"
+msgstr ""

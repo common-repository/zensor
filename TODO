@@ -1,0 +1,5 @@
+put all messages into a single option, ala ultimate ga
+Feed of posts/pages awaiting moderation
+Localization
+Maybe use 'save_post' hook?
+Should moderated posts be private?
